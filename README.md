@@ -23,6 +23,10 @@ Simple mechanism to use in card games. Allows enabling / disabling / configuring
 ## Video
 Here's a vid of the project in action: https://www.youtube.com/watch?v=o2e7uh4VDXA
 
+## Additional features
+- Spacing for smaller overlapping area for cards
+- Fixing flickering of many cards, due retriggering OnPointerEnter and OnPointerExit
+
 ## License
 MIT License
 
