@@ -199,9 +199,6 @@ public class CardWrapper : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
 	public void OnPointerUp(PointerEventData eventData)
 	{
-		if (isDragged)
-			isHovered = false;
-
 		isDragged = false;
 		container.OnCardDragEnd();
 	}
